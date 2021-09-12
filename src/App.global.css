@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Header Page*/
+.header {
+  @apply h-top border-figmagray border-b flex items-center;
+}
+.header_name {
+  @apply text-2xl font-extrabold text-darkgray pl-3 pt-1 poppins;
+}
+.pfp_props {
+  @apply rounded-full h-1/2 ml-auto mr-4;
+}
+.search_box {
+  @apply h-9 rounded-2xl bg-inputgray w-72 xl:w-96 flex flex-row px-4 items-center mr-4;
+}
+.search_type {
+  @apply bg-transparent flex-grow font-bold catamaran text-sm pt-1;
+}
+.noti_box {
+  @apply h-8 w-8 bg-mainblue rounded-lg flex items-center justify-center p-noti mr-7 cursor-pointer;
+}
+.left_box {
+  @apply w-2.5 h-full bg-mainred rounded-r-lg;
+}
+/*nav page*/
+
+.poppins {
+  font-family: 'Poppins', sans-serif !important;
+}
+.catamaran {
+  font-family: 'Catamaran', sans-serif !important;
+}
+.h-top {
+  height: 4.7rem;
+  min-height: 4.7rem;
+  max-height: 4.7rem;
+}
+
+*::placeholder {
+  color: #716f6f !important;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.p-noti {
+  padding: 0.4rem;
+}
+.dragzone {
+  -webkit-app-region: drag;
+}
+.w-nav {
+  width: 5.3rem;
+  min-width: 5.3rem;
+  max-width: 5.3rem;
+}
+
+.margin-suit {
+  margin-bottom: 1.1rem;
+}
+
+.naveffect {
+  transition: opacity 350ms ease-in-out;
+}

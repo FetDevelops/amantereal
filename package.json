@@ -30,8 +30,7 @@
     ]
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "Amante",
     "files": [
       "dist/",
       "node_modules/",
