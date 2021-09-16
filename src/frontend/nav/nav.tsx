@@ -80,10 +80,10 @@ export default function Nav() {
           <img src={captcha} alt="P" className="w-4 h-4 mx-auto" />
         </div>
         <div className="py-2.5 mb-3.5 w-full">
-          <img src={monitor} alt="P" className="w-4 h-5 mx-auto" />
+          <img src={monitor} alt="M" className="w-4 h-5 mx-auto" />
         </div>
         <div className="py-2.5 w-full">
-          <img src={settings} alt="P" className="w-4 h-5 mx-auto" />
+          <img src={settings} alt="S" className="w-4 h-5 mx-auto" />
         </div>
       </div>
     </div>

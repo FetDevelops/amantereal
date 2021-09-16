@@ -1,4 +1,7 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import icon from '../../../assets/icons/blackicon.svg';
 import uparrow from '../../../assets/navicons/uparrow.svg';
@@ -25,6 +28,7 @@ export default function Header() {
           src={notiStatus === false ? noti : notion}
           alt="off"
           className="h-full"
+          onClick={() => setNotiStatus(!notiStatus)}
         />
       </div>
       <img src={downarrow} alt="\/" className="mr-6 h-4 cursor-pointer" />

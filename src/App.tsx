@@ -10,7 +10,7 @@ import './App.global.css';
 import Header from './frontend/nav/header';
 import Nav from './frontend/nav/nav';
 import Dashboard from './frontend/dash/dashboard';
-import Tasks from './frontend/tasks/Tasks';
+import Tasks from './frontend/tasks/tasks';
 import Profiles from './frontend/profiles/profiles';
 import Proxies from './frontend/proxies/proxies';
 import Captcha from './frontend/captcha/captcha';
@@ -24,7 +24,7 @@ export default function App() {
       <HashRouter>
         <div className="w-full flex-grow flex flex-row">
           <Nav />
-          <div className="flex-grow h-full text-2xl font-bold">
+          <div className="flex-grow h-full text-2xl font-bold py-10 pr-12">
             <Switch>
               <Route exact path="/" />
               <Route path="/dash" component={Dashboard} />
